@@ -1,0 +1,107 @@
+header {
+    height: 40px;
+    background-color: #FFCC00;
+    display: inline-block;
+}
+
+.logo {
+    width: 11%;
+    margin: 6px 0 0 10px ;
+    display: inline;
+}
+
+nav {
+    margin: 0;
+    position: absolute;
+    right: 5px;
+    top: 14px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    font-weight: bold;
+    font-family: 'Arial';
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+nav ul li:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+nav ul li:active {
+    color: #D40511;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.abelha-esq {
+    width: 130px;
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 130px;
+    top: 60px;
+}
+
+.abelha-dir {
+        width: 128px;
+        float: right;
+        display: inline;
+        position: absolute;
+        right: 130px;
+        top: 62px;
+}
+
+h2 {
+    background-color: #FFE600;
+    margin-top: 80px;
+    font-family: impact;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0 25px 0px;
+}
+
+.icones-tela-inicial {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline; 
+}
+
+.icones-tela-inicial img {
+    width: 120px;
+    padding-right: 20px;
+    margin-left: 78px; 
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.icones-tela-inicial img:hover {
+    width: 125px;
+}
+
+.icones-tela-inicial ul {
+    margin-left: 91px;
+    margin-top: 10px;
+}
+
+.icones-tela-inicial ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: impact;
+    display: inline; 
+    padding-right:140px ;
+}

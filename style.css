@@ -1,107 +1,310 @@
-header {
-    height: 40px;
-    background-color: #FFCC00;
-    display: inline-block;
-}
-
-.logo {
-    width: 11%;
-    margin: 6px 0 0 10px ;
-    display: inline;
-}
-
-nav {
-    margin: 0;
-    position: absolute;
-    right: 5px;
-    top: 14px;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline;
-    padding-right: 20px;
-    font-weight: bold;
-    font-family: 'Arial';
-    font-size: 14px;
-    cursor: pointer;
-    transition: 0.2s all;
-}
-
-nav ul li:hover {
-    color: #FFFFFF;
-    text-decoration: underline;
-}
-
-nav ul li:active {
-    color: #D40511;
-}
-
-.titulo {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Impact;
-    text-align: center;
-    margin-top: 70px;
-
-}
-
-.abelha-esq {
-    width: 130px;
+.barraLateral {
     float: left;
-    display: inline;
+    z-index: 0;
+    display: inline-flexbox;  
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(165,231,163,1) 58%, rgba(152,218,152,1) 100%);
+    position: relative;
+    width: 300px;
+    height: 711px;
+    text-align: center
+}
+
+.foto {
+    position: relative;
+    top: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.dadosPessoais {
     position: absolute;
-    left: 130px;
-    top: 60px;
+    top: 265px;
+    left: 20px;
+    font-family:'Archivo', sans-serif;
 }
 
-.abelha-dir {
-        width: 128px;
-        float: right;
-        display: inline;
-        position: absolute;
-        right: 130px;
-        top: 62px;
+.icones {
+    position: absolute;
+    left: 0;
+    width: 18px;
 }
 
-h2 {
-    background-color: #FFE600;
-    margin-top: 80px;
-    font-family: impact;
-    font-size: 30px;
+.titulos {
+    position: relative;
+    left: 23px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.informações {
+    position: relative;
+    margin: 15px 5px 30px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.barraSuperior {
+    background: #e3fdd8;
     text-align: center;
-    padding: 25px 0 25px 0px;
+    margin-left: 250px;
+    padding: 20px 0 25px 0;
 }
 
-.icones-tela-inicial {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline; 
+.meuNome {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
 
-.icones-tela-inicial img {
-    width: 120px;
-    padding-right: 20px;
-    margin-left: 78px; 
+.subtitulo {
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.linkedin {
+    width: 30px;
     cursor: pointer;
-    transition: 0.3s all;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    opacity: 60%;
+    transition: 400ms all;
 }
 
-.icones-tela-inicial img:hover {
-    width: 125px;
+.linkedin:hover {
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
 }
 
-.icones-tela-inicial ul {
-    margin-left: 91px;
-    margin-top: 10px;
+.github {
+    width: 29px;
+    cursor: pointer;
+    position: absolute;
+    right: 55px;
+    top: 80px;
+    opacity: 60%;
+    transition: 400ms all;
 }
 
-.icones-tela-inicial ul li {
-    list-style: none;
+.github:hover {
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.instagram {
+    width: 29px;
+    cursor: pointer;
+    position: absolute;
+    right: 90px;
+    top: 80px;
+    opacity: 60%;
+    transition: 400ms all;
+}
+
+.instagram:hover {
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.codePen {
+    width: 29px;
+    cursor: pointer;
+    position: absolute;
+    right: 125px;
+    top: 80px;
+    opacity: 60%;
+    transition: 400ms all;
+}
+
+.codePen:hover {
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.sobreMim {
+    padding-top: 10px;
+    background: #f3f2f1;
+    margin:10px 5px 0 305px;
+    height: 200px;
+}
+
+.sobreMim h4 {
+    font-family: 'Archivo',sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 18px;
-    font-family: impact;
-    display: inline; 
-    padding-right:140px ;
+    margin: 10px 0 20px;
+}
+
+.sobreMim p {
+    font-family: 'Archivo', sans-serif ;
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 40px 0 40px;
+}
+
+.hard-skills {
+    padding-top: 10px;
+    background: #f3f2f1;
+    margin: 10px 5px 0 305px;
+    height: 350px;
+}
+
+.hard-skills h5 {
+    font-family: 'Archivo',sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+.skills-esquerda {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+
+.nome-skill-esquerda {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+.barra-skill-esquerda {
+    background-color: #c5c3c0 ;
+    width: 350px;
+    position: relative;
+    border-radius: 30px;
+    height: 7px;
+    display: flex;
+    margin: 10px 0 0 50px;
+    padding: 1px;
+}
+
+.barra-skill-esquerda::before {
+    content: "";
+    background-color: rgb(124, 189, 106);
+}
+
+.HTML-e-CSS::before {
+    /* nessa variável devo colocar o quanto conheço de HTML e CSS */
+    width: 80%;
+}
+
+.javaScript::before {
+    /* nessa variável devo colocar o quanto conheço de JavaScript */
+    width: 30%;
+}
+
+.UX-UI-design::before {
+    /* nessa variável devo colocar o quanto conheço de UX/UI design */
+    width: 15%;
+}
+
+.valor-skill-esquerda {
+    font-size: 15px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: -23px;
+    right: 0;
+}
+
+.skills-direita {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+.nome-skill-direita {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 55px;
+    margin-right: 50px;
+}
+
+.barra-skill-direita {
+    background-color: #c5c3c0 ;
+    width: 350px;
+    position: relative;
+    border-radius: 30px;
+    height: 7px;
+    display: flex;
+    margin: 10px 50px 0 0;
+    padding: 1px;
+}
+
+.barra-skill-direita::before {
+    content: "";
+    background-color: rgb(124, 189, 106);
+}
+
+.power-BI::before {
+    /* nessa variável devo colocar o quanto conheço de HTML e CSS */
+    width: 90%;
+}
+
+.tableau::before {
+    /* nessa variável devo colocar o quanto conheço de JavaScript */
+    width: 40%;
+}
+
+.mySQL::before {
+    /* nessa variável devo colocar o quanto conheço de UX/UI design */
+    width: 25%;
+}
+
+.valor-skill-direita {
+    font-size: 15px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: -23px;
+    right: 0;
+}
+
+.soft-skills {
+    padding-top: 10px;
+    background: #f3f2f1;
+    margin: 10px 5px 0 305px;
+    height: 350px;
+}
+
+.soft-skills h6 {
+    font-family: 'Archivo',sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+.img-soft-skills {
+    width: 700px;
+    margin: 0 auto;
+
 }

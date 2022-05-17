@@ -1,2 +1,2 @@
-# Painel-Interativo
-Painel Interativo para ser colocado nos quiosques de treinamento
+# curriculo
+Currículo profissional do João Pedro de Barros Nunes

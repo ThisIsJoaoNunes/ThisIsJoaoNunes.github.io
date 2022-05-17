@@ -1,47 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <head>
-        <title>PAINEL INTERATIVO</title>
+        <title>Currículo João Nunes</title>
     </head>
 
     <body>
-        <header>
-            <img src="imagens/logo dhl.PNG" class="logo">
-            <nav>
-                <ul>
-                    <li>INÍCIO</li>
-                    <li>SEGURANÇA</li>
-                    <li>QUALIDADE</li>
-                    <li>EFICIÊNCIA</li>
-                    <li>TREINAMENTO</li>
-                </ul>
-            </nav>
-        </header>
+
         <main>
-            <div>
-            <img src="imagens/abelha-esq.png" class="abelha-esq">
-            <img src="imagens/abelha-dir.png" class="abelha-dir">
-            <h1 class="titulo">ESCOLA DE EXCELÊNCIA</h1>
+            <div class="barraLateral"><img class="foto" src="assets/Imagem João.jpeg">
+                <div class="dadosPessoais">
+                    <img class="icones" src="assets/endereço.png"><h1 class="titulos">Endereço</h1><p class="informações">Rua das Nascentes, Cajamar-SP</p>
+                    <img class="icones" src="assets/telefone.png"><h2 class="titulos">Telefone</h2><p class="informações">(11) 97543-5093</p>
+                    <img class="icones" src="assets/email.png"><h2 class="titulos">E-mail</h2><p class="informações">joaopedro4000.JP@gmail.com</p>
+                    <img class="icones" src="assets/Nascimento.png"><h2 class="titulos">Data de Nascimento</h2><p class="informações">17/09/2001</p>
+                </div>
             </div>
-            <div>
-                <h2>O QUE VOCÊ DESEJA VISUALIZAR?</h2>
+            <div class="barraSuperior"><h3 class="meuNome">João Nunes</h3>
+                <p class="subtitulo">Front-end Developer</p>
+                <a href="https://www.linkedin.com/in/joao-pedro-38a9b6186/" target="_blank"><img src="assets/Linkedin hover.png" class="linkedin"></a>
+                <a href="https://github.com/ThisIsJoaoNunes" target="_blank"><img src="assets/github.png" class="github"></a>
+                <a href="https://www.instagram.com/mdr.joao/" target="_blank"><img src="assets/instagram hover.png" class="instagram"></a>
+                <a href="https://codepen.io/ThisIsJoaoNunes" target="_blank"><img src="assets/code pen.png" class="codePen"></a>
+
             </div>
-            <div class="icones-tela-inicial">
-                <img src="imagens/Logo Segurança.png" id="logo-seguranca">
-                <img src="imagens/logo Qualidade.png" id="logo-qualidade">
-                <img src="imagens/Logo eficiência.png" id="logo-eficiencia">
-                <img src="imagens/logo Treinamento.png" id="logo-treinamentos">
-                <ul>
-                    <li>SEGURANÇA</li>
-                    <li>QUALIDADE</li>
-                    <li>EFICIÊNCIA</li>
-                    <li>TREINAMENTO</li>
-                </ul>
+            <div class="sobreMim">
+                <h4>Sobre mim</h4>
+                <p>Olá! Me chamo João Pedro, tenho 20 anos e estou iniciando na área de Desenvolvimento Front-end.  </p>
             </div>
+            <div class="hard-skills">
+                <h5>Hard skills</h5>
+                <div class="skills-esquerda">
+                    <p class="nome-skill-esquerda">HTML & CSS</p>
+                    <div class="barra-skill-esquerda  HTML-e-CSS">
+                        <div class="valor-skill-esquerda">80%</div>
+                    </div>
+                    <p class="nome-skill-esquerda">JavaScript</p>
+                    <div class="barra-skill-esquerda javaScript">
+                        <div class="valor-skill-esquerda">30%</div>
+                    </div>
+                    <p class="nome-skill-esquerda">UX/UI Design</p>
+                    <div class="barra-skill-esquerda UX-UI-design">
+                        <div class="valor-skill-esquerda">15%</div>
+                    </div>
+                </div>
+                <div class="skills-direita">
+                    <p class="nome-skill-direita">Power BI</p>
+                    <div class="barra-skill-direita power-BI">
+                        <div class="valor-skill-direita">90%</div>
+                    </div>
+                    <p class="nome-skill-direita">Tableau</p>
+                    <div class="barra-skill-direita tableau">
+                        <div class="valor-skill-direita">40%</div>
+                    </div>
+                    <p class="nome-skill-direita">MySQL</p>
+                    <div class="barra-skill-direita mySQL">
+                        <div class="valor-skill-direita">25%</div>
+                    </div>
+                </div>
+          </div>
+          <div class="soft-skills">
+              <h6>Soft Skills</h6>
+              <img class="img-soft-skills" src="assets/Soft skills.png">
+          </div>
         </main>
     </body>
 </html>
